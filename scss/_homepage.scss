@@ -1,3 +1,15 @@
-body {
-	background: green;
+.slick-prev {
+	left: 25px;
+	z-index: 2;
+
+}
+
+.slick-next {
+	right: 25px;
+	z-index: 2;
+
+}
+
+.navbar {
+	margin: 0;
 }
