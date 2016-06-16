@@ -233,15 +233,4 @@
 .slick-arrow.slick-hidden {
   display: none; }
 
-.slick-prev {
-  left: 25px;
-  z-index: 2; }
-
-.slick-next {
-  right: 25px;
-  z-index: 2; }
-
-.navbar {
-  margin: 0; }
-
 /*# sourceMappingURL=maps/app.css.map */
