@@ -17,7 +17,7 @@
 .background-panel  {
     color:black; 
     background-color:#3498db;
-    height:1155px;
+    height:1000px;
     width:100%;
     text-align:left; 
     border-radius:0%;
@@ -41,7 +41,7 @@
 .one  {
     color:black;
     background-color:#ecf0f1;
-    height:900px;
+    height:700px;
     width:500px;
    /* font-family: elena-regular,sans-serif;
     font-size: 1.125rem;
@@ -56,10 +56,6 @@
     left: 90px;
 } 
 
-.one > h1{
-	font-family: didot-italic,
-	font-size:20px;
-}
 
 
 
@@ -83,8 +79,13 @@
   }
 
   .footer-panel {
-    
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    bottom: 10px;
   }
+
+
 
 
 
