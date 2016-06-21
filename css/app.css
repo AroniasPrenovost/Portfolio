@@ -258,7 +258,7 @@
   background-color: #3498db;
   height: 950px;
   /* 1,000 8*/
-  width: 1423px;
+  width: 1024px;
   /* 100% */
   text-align: left;
   border-radius: 0%;
@@ -268,7 +268,7 @@
 
 .one {
   background-color: white;
-  height: 66vw;
+  height: 700px;
   width: 456px;
   border-radius: 0%;
   margin-top: 0px;
@@ -289,35 +289,11 @@
   left: 20%;
   right: 20%; }
 
-.fade {
-  opacity: 1.0;
-  display: inline-block;
-  background-color: #16a085;
-  height: 270px;
-  width: 33%;
-  border-radius: 0%;
-  margin-top: 0px;
-  margin-right: -4px;
-  z-index: 5;
-  position: relative; }
-
-.fade:hover {
-  opacity: .3;
-  /* we want to keep this opacity so 
-          display: inline-block;             the image in .fade will be visible */
-  background-color: #2ecc71;
-  height: 270px;
-  width: 33%;
-  border-radius: 0%;
-  margin-top: 0px;
-  margin-right: -4px;
-  z-index: 5;
-  position: relative; }
-
 .mini-background-panel {
   background-color: black;
   height: 500px;
-  width: 100%;
+  width: 1024px;
+  /* used to be 100% */
   text-align: center;
   border-radius: 0%;
   margin-top: 0px;
@@ -350,22 +326,40 @@ a {
 .footer-panel {
   position: relative;
   background-color: black;
+  text-align: center;
+  font-size: 36px;
+  background-image: url("../images/__________");
+  /*   font-weight: 100px; */
   color: white;
-  padding-bottom: 30px;
-  height: 200px;
-  width: 100%;
-  bottom: 10px; }
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 400px;
+  width: 1024px;
+  bottom: 0px; }
 
-.footer-panel > p {
+.footer-blurb {
+  position: absolute;
+  text-align: center;
+  font-size: 36px;
+  top: 22%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  vertical-align: middle; }
+
+.footer-panel h5 {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  font-size: 1.125rem;
   font-style: normal;
   font-family: sans-serif;
   text-align: center;
   vertical-align: bottom; }
+
+.btn-lg {
+  font-size: 32px; }
 
 /* keep everything as a percentage if i can */
 
