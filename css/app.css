@@ -253,7 +253,7 @@
   background-color: black;
   color: black; }
 
-.background-panel {
+.jumbotron {
   color: black;
   background-color: #3498db;
   height: 950px;
@@ -324,6 +324,7 @@ a {
   text-decoration: none; }
 
 .footer-panel {
+  /* NEED TO GET RID OF THAT PADDING */
   position: relative;
   background-color: black;
   text-align: center;

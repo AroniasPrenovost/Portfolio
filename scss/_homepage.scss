@@ -22,7 +22,7 @@
       color: black;
     }
 
-    .background-panel  {
+    .jumbotron  {
       color:black; 
       background-color:#3498db;
         height:950px; /* 1,000 8*/
@@ -92,13 +92,13 @@
       font: 18px/1.5 Helvetica, Arial, sans-serif;
       color: #fff;
     }
-    
+
     a {
       color: #fff;
       text-decoration: none;
     }
 
-    .footer-panel {
+    .footer-panel {             /* NEED TO GET RID OF THAT PADDING */
       position: relative;
       background-color: black;
       text-align: center;
